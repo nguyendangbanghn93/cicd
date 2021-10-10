@@ -23,6 +23,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_api_key: "aa64e657-7622-4ee9-bd58-d254ba7dbef4"
           heroku_app_name: "glacial-inlet-15679"
           heroku_email: "nguyendangbanghn@gmail.com"
